@@ -1,0 +1,230 @@
+*
+{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+}
+.fixed
+{
+    position: fixed;
+    width: 100%;
+}
+.navbar
+{
+    width: 100%;
+    background-color: black;
+}
+.navbarcontainer
+{
+    height: 40px;
+    width: 70%;
+    margin: auto;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+.navbarcontainer ul
+{
+    display: flex;
+}
+.navbarcontainer ul li
+{
+    justify-content: end;
+    list-style: none;
+    padding-left: 20px;
+    font-size: 20px;
+}
+.navbarcontainer ul li a
+{
+    text-decoration: none;
+    color: white;
+}
+.menubar
+{ 
+    width: 100%;
+    background-color: whitesmoke;
+    position: fixed;
+}
+.menubarcontainer
+{ 
+    height: 60px;
+    width: 70%;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+}
+.logo
+{
+    width: 20%;
+    display: flex;
+    align-items: center;
+}
+.logo img
+{
+    width: 100%;
+    align-items: center;
+}
+.menubarcontainer ul
+{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.menubarcontainer ul li
+{
+    justify-content: end;
+    list-style: none;
+    padding-left: 20px;
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+}
+.menubar li::after
+{
+    content: '';
+    display: block; 
+    border-bottom: 3px solid black;
+    width: 0%;
+    transition: 0.7s;
+    margin: auto;
+    padding-top: 5px;
+}
+.menubar li:hover::after
+{
+    width: 100%;
+}
+.menubarcontainer ul li a
+{
+    text-decoration: none;
+    color: black;
+}
+.search
+{
+    width: 25%;
+    border-radius: 20px;
+    border: 1px solid gray;
+    position: relative;
+}
+.search input
+{
+    width: 100%;
+    height: 5px;
+    border-radius: 20px;
+    border: none;
+    outline: none;
+}
+.search i
+{
+    position: absolute;
+    top: 8px;
+    left: 15px;
+    font-size: 19px;
+}
+.bannercontainer
+{
+    height: 450px;
+    width: 70%;
+    margin: auto;
+    border-radius: 20px;
+}
+.bannercontainer img
+{
+    width: 100%;
+    height: 450px;
+    border-radius: 20px;
+}
+h3
+{
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+}
+h3::before
+{
+    content: '';
+    display: block;
+    border-bottom: 3px solid grey;
+    position: relative;
+    top: 10px; 
+    left: 15%;
+    height: 10px;
+    width: 29%;
+}
+h3::after
+{
+    content: '';
+    display: block;
+    border-bottom: 3px solid grey;
+    position: relative;
+    top: -23px;
+    left: 56%;
+    height: 10px;
+    width: 29%;
+}
+.gallerycontainer
+{
+    width: 70%;
+    height: 300px;
+    margin: 10px auto;
+    display: flex;
+    justify-content: space-between;
+}
+.gallerycontainer img
+{
+    height: 300px;
+    width: 24.5%;
+    border-radius: 10px;
+    margin: 10px auto;
+    display: flex;
+} 
+.videocontainer
+{
+    width: 70%;
+    height: 400px;
+    margin: 10px auto;
+    display: flex;
+    justify-content: space-between;
+}
+.videocontainer video
+{
+    height: 400px;
+    width: 24.5%;
+    border-radius: 10px;
+    margin: 10px auto;
+    display: flex;
+}
+.videocontainer img
+{
+    height: 400px;
+    padding-top: 35px;
+    width: 24.5%;
+    border-radius: 10px;
+    margin: 10px auto;
+    display: flex;
+}
+.footer
+{ 
+    height: 450px;
+    width: 100%;
+    background-color: rgb(228, 228, 228);
+}
+.footercontainer
+{  
+    height: 450px;
+    width: 100%;
+    background-color: rgb(228, 228, 228);
+    display: flex;
+    justify-content: space-evenly;
+}
+.footercontainer h1
+{
+    font-size: 20px;
+    margin: 20px 0px 0px 0px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.footercontainer h1 li
+{
+    list-style: none;
+    color: grey;
+    font-weight: lighter;
+}
