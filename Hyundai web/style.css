@@ -1,0 +1,686 @@
+*
+{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+}
+#start
+{
+    width: 100%;
+    height: 60px;
+    background-color: white;
+}
+.nav-menu
+{
+    height: 60px;
+    width: 80%;
+    margin: auto;
+    display: flex;
+
+    justify-content: space-evenly;
+    align-items: center;
+}
+.logo
+{
+    height: 60px;
+    width: 15%;
+}
+.logo img
+{
+    height: 40px;
+    width: 100%;
+    padding-top: 12px;
+}
+.menu-list
+{
+    height: 60px;
+    width: 70%;
+    display: flex;
+
+    justify-content: space-evenly;
+    align-items: center;
+
+}
+.menu-list a
+{
+    font-family: montserrat;
+    text-decoration: none;
+    color: black;
+    font-size: smaller;
+  
+
+}
+.icons
+{
+    height: 60px;
+    width: 15%;
+    display: flex;
+
+    justify-content: space-evenly;
+    align-items: center;
+
+}
+.icons a
+{
+    text-decoration:none;
+    color: black;
+    font-size: 23px;
+}
+.banner
+{
+    height: 780px;
+    width: 100%;
+    background-color: whitesmoke;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.banner-images
+{
+    height: 650px;
+    width: 100%;
+    background-color: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/*swiper slider*/
+
+.swiper
+{
+    width: 100%;
+    height: 100%;
+}
+.swiper-slide 
+{
+    text-align: center;
+
+}
+.swiper-slide img 
+{
+    display: block;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+
+.cars
+{
+    height: 760px;
+    width: 100%;
+}
+.cars h1
+{
+    font-family: montserrat;
+    font-size: 45px;
+    font-weight:550;
+    text-align: center;
+    padding: 3% 0px;
+}
+.car-list
+{
+    width: 30%;
+    margin: auto;
+    display: flex;
+    justify-content:space-evenly;
+}
+.car-list a
+{
+    color: black;
+    font-family: montserrat;
+    text-decoration: none;
+    padding-bottom: 5%;
+}
+.car-image
+{
+    display: flex;
+    justify-content: center;
+}
+.car-image img
+{
+    height: 350px;
+    margin-bottom: 20px;
+    
+}
+.car-info table
+{
+    margin: auto;
+    width: 53%;
+    font-family: montserrat;
+    font-size: 13px;
+}
+.slide-arrows
+{
+    height: 50px;
+    width: 80%;
+    margin: auto;
+    font-size: 60px;
+
+    display: flex;
+    justify-content: space-between;
+}
+.action-btn
+{
+    height: 150px;
+    width: 100%;
+    background-color: whitesmoke;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+.buttons
+{
+    height: 50px;
+    width: 80%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    justify-content: space-between;
+
+}
+.buttons a
+{
+    height: 50px;
+    width: 23%;
+    background-color: gray;
+    color: white;
+    border: none;
+    text-decoration: none;
+    font-family: montserrat;
+    font-size: small;
+    text-align: center;
+    line-height: 50px;
+}
+.text
+{
+    height: 150px;
+    width: 100%;
+    background-color:#002c5f ;
+    display: flex;
+    align-items: center;
+    margin-bottom: 5%;
+}
+.text section 
+{
+    width: 80%;
+    margin: auto;
+}
+.text section .textone
+{
+    font-family: montserrat;
+    color: white;
+    font-size: 18px;
+    font-weight: 500;
+   
+
+}
+.text section .texttwo
+{
+    font-family: montserrat;
+    color: white;
+    font-size: 30px;
+    font-weight: 500;
+}
+.gallery
+{
+    height: 400px;
+    width: 80%;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+
+}
+.gallery-content 
+{
+    width: 81%;
+    position: absolute;
+    left: 10%;
+}
+.gallery-content tr td
+{
+    color: black;
+    font-family: arial;
+    font-size: 20px;
+}
+.gallery-content tr td span
+{
+    color: #002c5f;
+    font-size: 15px;
+    font-weight: bolder;
+}
+.banner-second
+{
+    height: 880px;
+    width: 100%;
+    margin-top: 15%;
+}
+.know-more-btn button
+{
+    height: 50px;
+    width: 250px;
+    border: none;
+    outline: none;
+    color: white;    
+    background-color: #002c5f;
+    position: relative;
+    left: 42%;
+    margin-top:120px;
+}
+ 
+.gallery-list-one , .gallery-list-two
+{
+    height: 370px;
+    width: 80%;
+    display: flex;
+    margin: auto;
+    margin-bottom: 20px;
+    justify-content: space-between;
+
+}
+.learn-more-banner
+{
+    height: 700px;
+    width: 100%;
+    background-image: linear-gradient(rgba(255, 255, 255, .90),rgba(255, 255, 255, 0.90)), url('images/background.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background:;
+    margin-top: 5%;
+}
+.news
+{
+    width: 10%;
+    position: relative;;
+    left:45%;
+    top: 10%;
+    
+}  
+.news h1
+{
+    font-size: 43px;
+    font-weight: bold;
+    font-family: montserrat;
+}
+.learmore-container
+{
+    height: 450px;
+    width: 90%;
+    margin: auto;
+    position: relative;
+    top: 20%;
+    background-color: white;
+}
+.swiper-slide h1::before
+{
+    content: "India News|2024.10.17";
+    display: block;
+    font-size: 15px;
+    font-family: montserrat;
+    color: gray;
+    padding-bottom: 20px;
+}
+.swiper-slide h1
+{
+    font-family: montserrat;
+    font-size: 30px;
+    position: absolute;
+    top: 25%;
+    left:22%;
+}
+.swiper-slide .learn-more-btn
+{
+    position: relative;
+    top: 60%;
+} 
+.swiper-slide .learn-more-btn button
+{
+    height: 50px;
+    width: 200px;
+    border: none;
+    outline: none;
+    color: white;    
+    background-color: #002c5f;
+ 
+}
+.heading
+{
+    text-align: center;
+    width: 100%;
+    margin-top:5%;
+}
+.heading h1
+{
+    font-family: montserrat;
+    font-size: 40px;
+    font-weight: 550;
+}
+.heading h4
+{
+    font-family: montserrat;
+    font-size: 15px;
+    margin-top: 30px;
+    font-weight: 550;
+}
+.find-inputs
+{
+    height: 170px;
+    width: 80%;
+    margin: 60px auto 10px auto;
+}
+.find-inputs table
+{
+    width: 80%;
+}
+.find-inputs table td h5
+{
+    font-family: montserrat;
+    font-size: 15px;
+}
+.find-inputs table td label
+{
+    font-family: montserrat;
+    font-size: 13px;
+    font-weight: 550;
+}
+.find-inputs table td #car-selection
+{
+    height: 40px;
+    width: 250px;
+    border: 1px solid gray;
+    outline: none;
+    color: gray;
+    font-size: 15px;
+    padding: 10px;
+    position: relative;
+    left: 15px;
+}
+.find-inputs table td .map-search
+{
+    height: 41px;
+    width: 330px;
+    border: 1px solid gray;
+    outline: none;
+    font-size: 15px;
+    padding: 10px;
+    position: relative;
+    left: 30px;
+}
+.find-inputs table i
+{
+    height: 40px;
+    color: gray;
+    border-bottom: 1px gray solid;
+    border-top:1px gray solid ;
+    border-right:1px gray solid ;
+    font-size: 20px;
+    padding:10px;
+    position: relative;
+    top: 2px;
+    background-color: white;
+    position: relative;
+    left: 26px;
+}
+.find-inputs table td #km
+{
+    height: 40px;
+    width: 150px;
+    border: 1px solid gray;
+    outline: none;
+    color: gray;
+    font-size: 15px;
+    padding: 10px;
+    position: relative;
+    left: 30px;
+}
+.find-btn
+{
+    height: 50px;
+    width: 200px;
+    border: none;
+    outline: none;
+    color: white;    
+    background-color: #002c5f;
+    position: relative;
+    left: 39%;
+    margin-top:30px;   
+}
+.find-btn a button
+{
+    height: 50px;
+    width: 200px;
+    border: none;
+    outline: none;
+    color: white;    
+    background-color: #002c5f;
+}
+.map-content
+{
+    height: 670px;
+    width: 100%;
+    display: flex;
+}
+.locations-info
+{
+    height: 650px;
+    width: 40%;
+    background-color: white;
+    overflow: hidden;
+    overflow-y: scroll;
+}
+.locations-info h6
+{
+    font-family: montserrat;
+    color: black;
+    font-size: 15px;
+    padding-left: 50px;
+}
+.locations-info ul
+{
+    font-family: montserrat;
+    padding:0px 10px 0px 50px ;
+    list-style: none;
+
+}
+.locations-info ul a
+{
+    color: black;
+    font-weight: bold;
+    font-size: larger;
+    text-decoration: none;
+    
+}
+.locations-info ul li
+{
+    padding-top: 60px;
+    border-bottom:1px solid grays;
+}
+.locations-info ul i
+{
+    font-size: 30px;
+}
+.locations-info ul span
+{
+    font-family: montserrat;
+    font-size: 13px;
+    font-weight: bold;
+    position: relative;
+    left:43%;
+    color: #002c5f;
+}
+.locations-info ul h2
+{
+    font-family: montserrat;
+    font-size: smaller;
+    color: black;
+    padding-left: 45px;
+    font-weight: lighter;
+}
+.locations-info ul hr
+{
+    color: gray;
+    margin-top: 7%;
+}
+.locations-info p a
+{
+    font-family: arial;
+    color: #002c5f;
+    position: relative;
+    left:38%;
+    top: 20px;
+}
+.map
+{
+    height: 650px;
+    width: 60%;
+    background-color: antiquewhite;
+}
+.map iframe
+{
+    height: 650px;
+    width: 100%;
+}
+.jump-box
+{
+    height: 50px;
+    width: 61px;
+    background-color: black;
+    position: relative;
+    left: 96%;
+}
+.jump-box i
+{
+    color: white;
+    font-size: 45px;
+    position: relative;
+    left: 10px;
+    top: 10px;
+}
+.footer
+{
+    height: 340px;
+    width: 100%;
+    background-color: black;
+    display: flex;
+}
+.footer-container
+{
+    height: 320px;
+    width: 80% ;
+    position: relative;
+    left: 10%;
+    top: 20px;
+    display: flex;
+}
+.logo-two
+{
+    margin-top: 10px;
+    height: 310px;
+    width: 10%;
+}
+.logo--two img
+{   
+    height: 37px;
+    width: 60px;
+}
+.footer-list
+{
+    height: 320px;
+    width: 90%;
+    display: flex;
+}
+.box1
+{   
+    height: 320px;
+    width: 16.66%;
+    background-color: ;
+}
+.box1 span
+{
+    font-family: montserrat;
+    color: white;
+    font-weight: bold;
+}
+.box1 a
+{
+    font-family: montserrat;
+    color:lightgray ;
+    text-decoration: none;
+    font-weight: 550;
+    font-size: 13px;
+    transition: .3s;
+}
+.box1 i
+{
+    font-size: 18px;
+    padding-left: 9px;
+    color: lightgray ;
+    
+}
+.copyright
+{
+    height: 30px;
+    width: 100%;
+    background-color: black;
+    margin: auto;
+}
+.copyright h3
+{
+    font-family: montserrat;
+    color:lightgray ;
+    font-weight: 550;
+    font-size: 13px;
+    margin-left: 17%;
+}
+.footer-menu
+{
+    height: 70px;
+    width: 100%;
+    background-color: #002c5f;
+}
+.footer-content
+{
+    height: 70px;
+    width: 70%;
+    margin: auto;
+    
+}
+.footer-content ul
+{
+    display: flex;
+    list-style: none;
+    justify-content: space-between;
+    
+}
+.footer-content ul a
+{
+    color: white;
+    font-family: montserrat;
+    text-decoration: none;
+    font-size: 20px;
+    font-weight: bold;
+    position: relative;
+    left: 10px;
+}
+.footer-content ul a:hover
+{
+    text-decoration: underline white 1px;
+}
+
+.footer-content ul img
+{
+    padding-top: 10px;
+    position: relative;
+    top: 7px;
+}
+.fixed-footer
+{
+    position: sticky;
+    bottom: 0%;
+}
