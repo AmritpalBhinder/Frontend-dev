@@ -4,3 +4,5 @@
 <img src ="Hyundai web/images/Screenshot (5).png">
 <h3>HAPPENSTANCES</h3>
 <img src ="Happenstances/images/Screenshot (6).png">
+<h1>Gallery Grid</h1>
+<img src="Gallery Grid/images/Screenshot (8).png">
