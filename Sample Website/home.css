@@ -1,0 +1,131 @@
+*
+{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+}
+nav
+{
+    float: left;
+    height: 60px;
+    width: 100%;
+    background-color:green;
+}
+table
+{
+    margin-left: 10%;
+    float: left;
+
+}
+table a
+{
+    padding-left: 50px;
+    color: white;
+    font-family: montserrat;
+    text-decoration: none;
+    line-height: 60px;
+} 
+input
+{
+    float: left;
+    height: 40px;
+    width: 20%;
+    margin-top: 10px;
+    margin-left: 25%;
+    border: none;
+    outline: none;
+    padding-left: 10px;
+}
+.gobox
+{
+    height: 9px;
+    width: 60px;
+    background-color: black;
+    line-height: 60px;
+    padding: 11px 25px 11px 25px;
+    color: white;
+    font-family: montserrat;
+    font-weight: bold;
+    text-decoration: none;
+}
+.related
+{
+    height:82vh;
+    width: 25%;
+    background-color: rgb(255, 177, 177);
+    float: right;
+
+}
+.related h1
+{
+    font-family: montserrat;
+    margin-left: 140px;
+    margin-top: 30px;
+    color: black;
+}
+.relatedinfo
+{
+    height: 200px;
+    width: 30%;
+    color:white;
+    margin-top: 100px;
+    width: 100%;
+    padding-left: 80px;
+}
+.home
+{
+    height: auto;
+    width: 75%;
+    text-align: center;
+    
+}
+.home h1
+{
+    font-family: montserrat;
+    padding-top: 90px;
+}
+.profile
+{
+    height: 350px;
+    width: 75%;
+    align-items: center;
+}
+ 
+.image img
+{
+    height: 325px;
+    width: 100%;
+    border-radius:20px;
+    margin-top: 0px;
+    margin-left: 25px;
+}
+.image .name
+{ 
+    font-family: montserrat;
+    font-size: larger;
+    padding-left: 200px;
+}
+.about
+{
+    font-family: montserrat;
+    margin-top: 10px;
+}
+.copy
+{
+    height: 64px;
+    width: 100%;
+    background-color: green;
+    position: absolute;
+    transform: translate(-50%,-50%);
+    top: 95%;
+    left: 50%;
+    
+}
+span
+{
+    color: white;
+    font-family: montserrat;
+    font-size: smaller;
+    line-height: 64px;
+    margin-left: 150px;
+}
