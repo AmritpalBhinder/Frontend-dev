@@ -8,3 +8,5 @@
 <img src="Gallery Grid/images/Screenshot (8).png">
 <h1>Sample Website</h1>
 <img src="Sample Website/images/Screenshot (9).png">
+<h1>Min-width Project</h1>
+<img src="Min-width project/images/Screenshot (10).png">
