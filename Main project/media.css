@@ -1,0 +1,655 @@
+@media(max-width:1200px)
+{
+    * {
+        margin: 0%;
+        padding: 0%;
+        box-sizing: border-box;
+        font-family: arial;
+    }
+    .navbar {
+        height: 72px;
+        width: 100%;
+        background-color: #0C3C60;
+    }
+    
+    .navbarcontainer {
+        height: 72px;
+        width: 90%;
+        display: flex;
+        justify-content: flex-end;
+        align-items: center;
+    }
+    
+    .navbarcontainer .name {
+        font-size: 20px;
+        color: white;
+    }
+    
+    .navbarcontainer ul {
+        display: flex;
+    }
+    
+    .navbarcontainer ul li {
+        list-style: none;
+        padding: 0px 7px;
+        font-size: 20px;
+        color: white;
+    }
+    
+    .banner {
+        width: 100%;
+        height: 700px;
+        background: url(images/Banner.webp);
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+    
+    .banner .box {
+        background-color: white;
+        height: 300px;
+        width: 50%;
+        margin: auto;
+        position: relative;
+        top: 60%;
+    }
+    
+    .banner .box h2 {
+        font-weight: lighter;
+        font-family: Arial, Helvetica, sans-serif;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        padding-top: 35px;
+    }
+    
+    .banner .box h1 {
+        font-size: 45px;
+        font-family: Georgia, 'Times New Roman', Times, serif;
+        font-weight: lighter;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        padding-top: 20px;
+        padding-left: 5%;
+    }
+    
+    .button {
+        height: 80px;
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    
+    .button .Free-Consultation button {
+        height: 50px;
+        width: 200px;
+        background-color: transparent;
+        border: 1px solid #0C3C60;
+        color: #0C3C60;
+        font-weight: bolder;
+        position: relative;
+        top: 40px;
+    
+        transition: 0.6s;
+    }
+    
+    .button .Free-Consultation button:hover {
+        background-color: #0C3C60;
+        color: white;
+    }
+    
+    .about-section {
+        height: auto;
+        width: 100%;
+    }
+    
+    .about-section .about-section-tittle {
+        height: 200px;
+        width: 80%;
+        margin: auto;
+        text-align: center;
+        padding-top: 100px;
+        padding-right: 30px;
+        font-size: 30px;
+    }
+    
+    .about-section .about-section-info {
+        height: auto;
+        width: 80%;
+        margin: auto;
+        text-align: center;
+        font-size: 15px;
+    }
+    
+    .about-section .more-btn {
+        height: 120px;
+        width: 80%;
+        margin: auto;
+        text-align: center;
+        font-size: 15px;
+    }
+    
+    .about-section .more-btn tr td a button {
+        height: 50px;
+        width: 140px;
+        background-color: transparent;
+        border: 1px solid #0C3C60;
+        color: #0C3C60;
+        font-weight: bolder;
+    
+        transition: 0.6s;
+    }
+    
+    .about-section .more-btn tr td a button:hover {
+        background-color: #0C3C60;
+        color: white;
+    }
+    
+    .banner-two {
+        margin: 130px 0px;
+        height: 250vh;
+        width: 100%;
+        background-color: aqua;
+        background: linear-gradient(rgba(212, 204, 204, 0.6), rgba(212, 204, 204, 0.6)), url(images/BANNER-2.jpg);
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-attachment: fixed;
+    }
+    
+    .our-client h1 {
+        font-weight: lighter;
+        margin: auto;
+        text-align: center;
+    }
+    
+    .logo {
+        height: 80px;
+        width: 100%;
+        margin-top: 90px;
+    }
+    
+    .logo img {
+        background-position: center;
+        background-size: cover;
+        width: 100%;
+    }
+    
+    .content {
+        height: 100vh;
+        width: 100%;
+        background-color: #F7F7F7;
+        margin-top: 100px;
+    }
+    
+    .content h1 {
+        text-align: center;
+        padding-top: 90px;
+        font-family: Arial, Helvetica, sans-serif;
+        font-weight: lighter;
+    }
+    
+    .content p {
+        text-align: center;
+        margin-top: 70px;
+        font-size: 17px;
+        font-weight: 300;
+        letter-spacing: 2px;
+        line-height: 30px;
+    }
+    
+    .content h4 {
+        text-align: center;
+        padding-top: 60px;
+        color: #0C3C60;
+        display: block;
+    
+    }
+    
+    .content h4::after {
+        content: "Dora Bridges";
+        display: block;
+        color: black;
+        font-size: 15px;
+        padding: 5px;
+        font-weight: 200;
+    }
+    
+    .content h2 {
+        font-size: 70px;
+        text-align: center;
+        padding-top: 150px;
+    }
+    
+    .contactcontainer {
+        height: 250vh;
+        width: 100%;
+        background-color: #0C3C60;
+    }
+    
+    .contactcontainer h1 {
+        text-align: center;
+        font-size: 40px;
+        color: white;
+        font-weight: lighter;
+        padding-top: 90px;
+    }
+    
+    .contactcontainer form {
+        height: auto;
+        width: 65%;
+        margin: 80px auto;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+    
+    }
+    
+    .contactcontainer form label {
+        color: white;
+        font-size: 17px;
+        width: 47%;
+    }
+    
+    .contactcontainer form input {
+        background-color: transparent;
+        border: none;
+        border-bottom: 2px solid white;
+        width: 49%;
+        padding-top: 20px;
+        margin-bottom: 50px;
+        color: white;
+        outline: none;
+    }
+    
+    .contactcontainer form textarea {
+        background-color: transparent;
+        border: none;
+        border-bottom: 2px solid white;
+        width: 100%;
+        padding-top: 20px;
+        margin-bottom: 50px;
+        color: white;
+        outline: none;
+    }
+    
+    .submit-btn .submit-button {
+        height: 50px;
+        width: 280px;
+        background-color: white;
+        border: 1px solid #0C3C60;
+        color: #0C3C60;
+        font-weight: bolder;
+        margin-left: 250%;
+    
+        transition: 0.6s;
+    }
+    
+    .submit-button:hover {
+        background-color: #0C3C60;
+        color: white;
+        border: 1px solid white;
+    }
+    .map
+    {
+        height: 350px;
+        width: 65%;
+        background-color: black;
+        margin: auto;
+    }
+    .map iframe
+    {
+        height: 100%;
+        width: 100%;
+    }
+    .footercontainer
+    {
+        height: 90vh;
+        width: 100%;
+        background-color: #072136;
+    }
+    .footercontainer ul
+    {
+        display: flex;
+        justify-content: space-evenly;
+        list-style: none;
+        color: white;
+        font-size: 20px;
+        padding: 40px 0px 0px 30px;
+    }
+    .footercontainer ul li p
+    {
+        margin-top: 20px;
+    }
+    
+}
+@media(max-width:992px)
+{
+*
+{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+    font-family: arial;
+}
+
+.navbar {
+    height: 72px;
+    width: 120%;
+    background-color: #0C3C60;
+}
+
+.navbarcontainer {
+    height: 72px;
+    width: 95%;
+    display: flex;
+}
+
+.navbarcontainer .name {
+    font-size: 20px;
+    color: white;
+}
+
+.navbarcontainer ul {
+    display: flex;
+}
+
+.navbarcontainer ul li {
+    list-style: none;
+    padding: 0px 7px;
+    font-size: 20px;
+    color: white;
+    justify-content: flex-end;
+}
+
+.banner {
+    width: 120%;
+    height: 700px;
+    background: url(images/Banner.webp);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.banner .box {
+    background-color: white;
+    height: 300px;
+    width: 50%;
+    margin: auto;
+    position: relative;
+    top: 60%;
+}
+
+.banner .box h2 {
+    font-weight: lighter;
+    font-family: Arial, Helvetica, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 35px;
+}
+
+.banner .box h1 {
+    font-size: 60px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-weight: lighter;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 20px;
+    padding-left: 20%;
+}
+
+.button {
+    height: 80px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.button .Free-Consultation button {
+    height: 50px;
+    width: 200px;
+    background-color: transparent;
+    border: 1px solid #0C3C60;
+    color: #0C3C60;
+    font-weight: bolder;
+    position: relative;
+    top: 1px;
+
+    transition: 0.6s;
+}
+
+.button .Free-Consultation button:hover {
+    background-color: #0C3C60;
+    color: white;
+}
+
+.about-section {
+    height: auto;
+    width: 100%;
+}
+
+.about-section .about-section-tittle {
+    height: 200px;
+    width: 80%;
+    margin: auto;
+    align-items: center;
+    padding-top: 100px;
+    padding-left: 60px;
+    font-size: 30px;
+}
+
+.about-section .about-section-info {
+    height: auto;
+    width: 80%;
+    margin: auto;
+    text-align: center;
+    font-size: 12px;
+    padding-left: 60px;
+    margin: auto;
+}
+
+.about-section .more-btn {
+    height: 120px;
+    width: 80%;
+    margin:auto;
+    font-size: 15px;
+}
+
+.about-section .more-btn tr td a button {
+    height: 50px;
+    width: 140px;
+    background-color: transparent;
+    border: 1px solid #0C3C60;
+    color: #0C3C60;
+    font-weight: bolder;
+
+    transition: 0.6s;
+}
+
+.about-section .more-btn tr td a button:hover {
+    background-color: #0C3C60;
+    color: white;
+}
+
+.banner-two {
+    margin: 130px 0px;
+    height: 250vh;
+    width: 120%;
+    background-color: aqua;
+    background: linear-gradient(rgba(212, 204, 204, 0.6), rgba(212, 204, 204, 0.6)), url(images/BANNER-2.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+.our-client h1 {
+    font-weight: lighter;
+    margin-left: 150px;
+    text-align: center;
+    font-size: xxx-large;
+}
+
+.logo {
+    height: 80px;
+    width: 120%;
+    margin-top: 90px;
+}
+
+.logo img {
+    background-position: center;
+    background-size: cover;
+    width: 100%;
+}
+
+.content {
+    height: 250vh;
+    width: 120%;
+    background-color: #F7F7F7;
+    margin-top: 100px;
+}
+
+.content h1 {
+    text-align: center;
+    padding-top: 90px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: lighter;
+}
+
+.content p {
+    text-align: center;
+    margin-top: 70px;
+    font-size: 17px;
+    font-weight: 300;
+    letter-spacing: 2px;
+    line-height: 30px;
+}
+
+.content h4 {
+    text-align: center;
+    padding-top: 60px;
+    color: #0C3C60;
+    display: block;
+
+}
+
+.content h4::after {
+    content: "Dora Bridges";
+    display: block;
+    color: black;
+    font-size: 15px;
+    padding: 5px;
+    font-weight: 200;
+}
+
+.content h2 {
+    font-size: 70px;
+    text-align: center;
+    padding-top: 150px;
+}
+
+.contactcontainer {
+    height: 450vh;
+    width: 120%;
+    background-color: #0C3C60;
+}
+
+.contactcontainer h1 {
+    text-align: center;
+    font-size: 40px;
+    color: white;
+    font-weight: lighter;
+    padding-top: 90px;
+}
+
+.contactcontainer form {
+    height: auto;
+    width: 65%;
+    margin: 80px auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+
+}
+
+.contactcontainer form label {
+    color: white;
+    font-size: 17px;
+    width: 47%;
+}
+
+.contactcontainer form input {
+    background-color: transparent;
+    border: none;
+    border-bottom: 2px solid white;
+    width: 49%;
+    padding-top: 20px;
+    margin-bottom: 50px;
+    color: white;
+    outline: none;
+}
+
+.contactcontainer form textarea {
+    background-color: transparent;
+    border: none;
+    border-bottom: 2px solid white;
+    width: 100%;
+    padding-top: 20px;
+    margin-bottom: 50px;
+    color: white;
+    outline: none;
+}
+
+.submit-btn .submit-button {
+    height: 50px;
+    width: 280px;
+    background-color: white;
+    border: 1px solid #0C3C60;
+    color: #0C3C60;
+    font-weight: bold;
+    margin-left: 620px;
+    transition: 0.6s;
+}
+
+.submit-button:hover {
+    background-color: #0C3C60;
+    color: white;
+    border: 1px solid white;
+}
+.map
+{
+    height: 350px;
+    width: 65%;
+    background-color: black;
+    margin: auto;
+}
+.map iframe
+{
+    height: 100%;
+    width: 100%;
+}
+.footercontainer
+{
+    height: 155vh;
+    width: 120%;
+    background-color: #072136;
+}
+.footercontainer ul
+{
+    display: flex;
+    justify-content: space-evenly;
+    list-style: none;
+    color: white;
+    font-size: 20px;
+    padding: 40px 0px 0px 30px;
+}
+.footercontainer ul li p
+{
+    margin-top: 20px;
+}
+}
