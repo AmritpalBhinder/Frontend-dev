@@ -1,0 +1,142 @@
+*
+{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+}
+.navbar
+{
+    height: 40px;
+    width: 100%;
+    background-color: black;
+}
+.navbar-container
+{
+    height: 40px;
+    width: 90%;
+    margin: auto;
+}
+.navbar-container img
+{
+    height: 40px;
+    float: left;
+}
+.navbar-container h1
+{
+    color: white;
+    float: none;
+    height: 40%;
+    text-align: center;
+}
+h2
+{
+    margin: 20px;
+}
+.banner 
+{
+    height: 250px;
+    width: 80%;
+    margin: auto;
+    margin-top: 40px; 
+    border-radius: 20px;  
+}
+.banner img
+{
+    height: 250px;
+    width: 100%;
+    border-radius: 20px;
+}
+.gallery-container
+{
+    height: 250px;
+    width: 80%;
+    margin: auto;
+}
+.gallery-container .box1
+{
+    height: 250px;
+    width: 23%;
+    background-color: red;
+    float: right;
+    margin: 0px 10px;
+    border-radius: 20px;
+}
+.gallery-container .box1 img
+{
+    height: 250px;
+    width: 100%;
+    border-radius: 20px;
+    filter: grayscale(100%);
+    transition: 0.5s;
+}
+.gallery-container .box1 img:hover
+{
+    filter: grayscale(0%);
+}
+.gallery-container .box2
+{
+    height: 250px;
+    width: 23%;
+    background-color: yellow;
+    float: right;
+    margin: 0px 10px;
+    border-radius: 20px;
+}
+.gallery-container .box2 img
+{
+    height: 250px;
+    width: 100%;
+    border-radius: 20px;
+    filter: grayscale(100%);
+    transition: 0.5s;
+}
+.gallery-container .box2 img:hover
+{
+    filter: grayscale(0%);
+}
+.gallery-container .box3
+{
+    height: 250px;
+    width: 23%;
+    background-color: green;
+    float: right;
+    margin: 0px 10px;
+    border-radius: 20px;
+}
+.gallery-container .box3 img
+{
+    height: 250px;
+    width: 100%;
+    border-radius: 20px;
+    filter: grayscale(100%);
+    transition: 0.5s;
+}
+.gallery-container .box3 img:hover
+{
+    filter: grayscale(0%);
+}
+.gallery-container .box4
+{
+    height: 250px;
+    width: 23%;
+    background-color: brown;
+    float: right;
+    margin: 0px 10px;
+    border-radius: 20px;
+}
+.gallery-container .box4 img
+{
+    height: 250px;
+    width: 100%;
+    border-radius: 20px;
+    filter: grayscale(100%);
+    transition: 0.5s;
+}
+.gallery-container .box4 img:hover
+{
+    filter: grayscale(0%);
+}
+p
+{
+    margin-left: 48%;
+}
