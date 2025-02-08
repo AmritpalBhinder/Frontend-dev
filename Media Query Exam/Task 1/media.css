@@ -1,0 +1,433 @@
+@media(min-width:576px)
+{
+    *
+{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+}
+body
+{
+    background-image:  linear-gradient(rgba(0,0,0,0.5) ,  rgba(0,0,0,0.5)) , url('images/1000_F_124109084_rQNbxay13XHFDQSDbzEPJYV0ysqXrgZY.jpg');
+    height: 400vh;
+    width: 100%;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+.container-fluid
+{
+    height: 50px;
+    width: 100%;
+}
+.container
+{
+    height: 50px;
+    width: 90%;
+    margin: auto;
+}
+.container ul
+{
+    list-style: none;
+}
+.container ul li a
+{
+    text-decoration: none;
+    line-height: 50px;
+    margin-left: 40px;
+    font-size: large;
+    color: white;
+}
+h1
+{
+    font-weight: lighter;
+      
+}
+.container-box
+{
+    height: 550px;
+    width: 100%;
+    margin-top: 15px;
+    flex-wrap: wrap;
+    align-items: center;
+}
+.box1
+{
+    height: 500px;
+    width: 100%;
+    margin-top: 10%;
+    border-radius: 20px;
+    background-color: brown;
+}
+.box2
+{
+    height: 500px;
+    width: 100%;
+    margin-top: 10%;
+    border-radius: 20px;
+    background-color: green;
+}
+.box3
+{
+    height: 500px;
+    width: 100%;
+    margin-top: 10%;
+    border-radius: 20px;
+    background-color: darkgreen;
+}   
+.footer
+{
+    height: 50px;
+    width: 100%;
+    margin-top: 213%;
+    background-color: black;
+    text-align: start;
+}
+}
+@media(min-width:768px)
+{
+    *
+    {
+        margin: 0%;
+        padding: 0%;
+        box-sizing: border-box;
+    }
+    body
+    {
+        background-image:  linear-gradient(rgba(0,0,0,0.5) ,  rgba(0,0,0,0.5)) , url('images/1000_F_124109084_rQNbxay13XHFDQSDbzEPJYV0ysqXrgZY.jpg');
+        height: 400vh;
+        width: 100%;
+        background-size: cover;
+        background-position: center;
+        background-repeat: no-repeat;
+    }
+    .container-fluid
+    {
+        height: 50px;
+        width: 100%;
+    }
+    .container
+    {
+        height: 50px;
+        width: 90%;
+        margin: auto;
+    }
+    .container ul
+    {
+        list-style: none;
+    }
+    .container ul li a
+    {
+        text-decoration: none;
+        line-height: 50px;
+        margin-left: 70px;
+        font-size: large;
+        color: white;
+    }
+    h1
+    {
+        font-weight: lighter;   
+        margin-left: 50px;     
+    }
+    .container-box
+    {
+        height: 550px;
+        width: 100%;
+        margin-top: 15px;
+        flex-wrap: wrap;
+        align-items: center;
+    }
+    .box1
+    {
+        height: 500px;
+        width: 100%;
+        margin-top: 10%;
+        border-radius: 20px;
+        background-color: brown;
+    }
+    .box2
+    {
+        height: 500px;
+        width: 100%;
+        margin-top: 10%;
+        border-radius: 20px;
+        background-color: green;
+    }
+    .box3
+    {
+        height: 500px;
+        width: 100%;
+        margin-top: 10%;
+        border-radius: 20px;
+        background-color: darkgreen;
+    }   
+    .footer
+{
+    height: 50px;
+    width: 100%;
+    margin-top: 160%;
+    background-color: black;
+}
+}
+@media(min-width:992px)
+{
+    *
+    {
+        margin: 0%;
+        padding: 0%;
+        box-sizing: border-box;
+    }
+    body
+    {
+        background-image:  linear-gradient(rgba(0,0,0,0.5) ,  rgba(0,0,0,0.5)) , url('images/1000_F_124109084_rQNbxay13XHFDQSDbzEPJYV0ysqXrgZY.jpg');
+        height: 250vh;
+        width: 100%;
+        background-size: cover;
+        background-position: center;
+        background-repeat: no-repeat;
+    }
+    .container-fluid
+    {
+        height: 50px;
+        width: 100%;
+    }
+    .container
+    {
+        height: 50px;
+        width: 90%;
+        margin: auto;
+    }
+    .container ul
+    {
+        list-style: none;
+    }
+    .container ul li a
+    {
+        text-decoration: none;
+        line-height: 50px;
+        margin-left: 100px;
+        font-size: large;
+        color: white;
+    }
+    h1
+    {
+        font-weight: lighter;
+        margin-top: 8%;
+        padding-left:5%;
+          
+    }
+    h2
+    {
+        font-weight: lighter;
+        margin-top: 8%;
+        padding-left:6%;   
+    }
+    .container-box
+    {
+        height: 550px;
+        width: 100%;
+        margin-top: 15px;
+        flex-wrap: wrap;
+        align-items: center;
+    }
+    .box1
+    {
+        height: 500px;
+        width: 45%;
+        margin-top: 10%;
+        border-radius: 20px;
+        background-color: brown;
+    }
+    .box2
+    {
+        height: 500px;
+        width: 45%;
+        margin-top: 10%;
+        border-radius: 20px;
+        background-color: green;
+    }
+    .box3
+    {
+        height: 500px;
+        width: 50%;
+        margin-top: 10%;
+        border-radius: 20px;
+        background-color: darkgreen;
+    }   
+    .footer
+    {
+        height: 50px;
+        width: 100%;
+        margin-top: 65%;
+        background-color: black;
+    }
+}
+@media(min-width:1200px)
+{
+    *
+    {
+        margin: 0%;
+        padding: 0%;
+        box-sizing: border-box;
+    }
+    body
+    {
+        background-image:  linear-gradient(rgba(0,0,0,0.5) ,  rgba(0,0,0,0.5)) , url('images/1000_F_124109084_rQNbxay13XHFDQSDbzEPJYV0ysqXrgZY.jpg');
+        height: 160vh;
+        width: 100%;
+        background-size: cover;
+        background-position: center;
+        background-repeat: no-repeat;
+    }
+    .container-fluid
+    {
+        height: 50px;
+        width: 100%;
+    }
+    .container
+    {
+        height: 50px;
+        width: 90%;
+        margin: auto;
+    }
+    .container ul
+    {
+        list-style: none;
+    }
+    .container ul li a
+    {
+        text-decoration: none;
+        line-height: 50px;
+        margin-left: 140px;
+        font-size: large;
+        color: white;
+    }
+    h1
+    {
+        font-weight: lighter;
+        padding-left: 8%;
+          
+    }
+    h2
+    {
+        font-weight: lighter;
+        padding-left: 10%;
+    }
+    .container-box
+    {
+        height: 550px;
+        width: 100%;
+        margin-top: 15px;
+        flex-wrap: nowrap;
+        align-items: center;
+    }
+    .box1
+    {
+        height: 500px;
+        width: 34%;
+        margin-top: 10%;
+        border-radius: 20px;
+        background-color: brown;
+    }
+    .box2
+    {
+        height: 500px;
+        width: 34%;
+        margin-top: 10%;
+        border-radius: 20px;
+        background-color: green;
+    }
+    .box3
+    {
+        height: 500px;
+        width: 34%;
+        margin-top: 10%;
+        border-radius: 20px;
+        background-color: darkgreen;
+    }   
+    .footer
+    {
+        height: 50px;
+        width: 100%;
+        margin-top: 8%;
+        background-color: black;
+    }
+}
+@media(min-width:1400px)
+{
+    *
+    {
+        margin: 0%;
+        padding: 0%;
+        box-sizing: border-box;
+    }
+    body
+    {
+        background-image:  linear-gradient(rgba(0,0,0,0.5) ,  rgba(0,0,0,0.5)) , url('images/1000_F_124109084_rQNbxay13XHFDQSDbzEPJYV0ysqXrgZY.jpg');
+        height: 170vh;
+        width: 100%;
+        background-size: cover;
+        background-position: center;
+        background-repeat: no-repeat;
+    }
+    .container-fluid
+    {
+        height: 50px;
+        width: 100%;
+    }
+    .container
+    {
+        height: 50px;
+        width: 90%;
+        margin: auto;
+    }
+    .container ul
+    {
+        list-style: none;
+    }
+    .container ul li a
+    {
+        text-decoration: none;
+        line-height: 50px;
+        margin-left: 170px;
+        font-size: large;
+        color: white;
+    }
+    h1
+    {
+        font-weight: lighter;
+          
+    }
+    .container-box
+    {
+        height: 550px;
+        width: 100%;
+        margin-top: 15px;
+
+        align-items: center;
+    }
+    .box1
+    {
+        height: 500px;
+        width: 33.33%;
+        margin-top: 10%;
+        border-radius: 20px;
+        background-color: brown;
+    }
+    .box2
+    {
+        height: 500px;
+        width: 33.33%;
+        margin-top: 10%;
+        border-radius: 20px;
+        background-color: green;
+    }
+    .box3
+    {
+        height: 500px;
+        width: 33.33%;
+        margin-top: 10%;
+        border-radius: 20px;
+        background-color: darkgreen;
+    }   
+}
