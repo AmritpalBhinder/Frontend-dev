@@ -16,3 +16,5 @@
 <img src="Main project/images/Screenshot (12).png">
 <h1>Media Query Exam</h1>
 <img src="Media Query Exam/Task 1/images/Screenshot (13).png">
+<h1>Corporate Wireframe html</h1>
+<img src="Corporate html wireframe/images/banner.png">
