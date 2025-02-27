@@ -1,0 +1,130 @@
+*
+{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+}
+.backrow
+{
+    padding: 0%;
+    display: flex;
+}
+.backcolor
+{
+    height: 650px;
+    padding: 0%;
+    background-color: #17283a;
+}
+.backimg
+{
+    padding: 0px 50px;
+    display: flex;
+    justify-content: end;
+}
+.backimg img
+{
+    height: 650px;
+    padding: 0%;
+    width: 100%;
+}
+.content
+{
+    height: 700px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 60%;
+    margin: auto;
+}
+.content h1
+{
+    color: white;   
+    margin-bottom: 20px; 
+}
+.content p
+{
+    border-left: 3px solid aqua;
+    padding-left: 20px;
+    color: white;
+    margin-bottom: 20px; 
+}
+.content a
+{
+    color: white;
+    height: 40px;
+    text-align: center;
+    line-height: 40px;
+    border-radius: 50px;
+    width: 130px;
+    background-color: #58B7E5;
+    text-decoration: none;
+    margin-right: 15px;
+}
+.content button
+{
+    display: flex;
+    align-items: center;
+    color: white;
+    border: none;
+    outline: none;
+    background-color: #17283A;
+}
+.content button i
+{
+    margin-right: 10px;
+    font-size: 30px;
+}
+.buttons
+{
+    height: auto;
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+    /* navbar code starts */
+
+.navbar 
+{
+    background-color: #58b6e500;
+    position: absolute;
+    top: 0%;
+}
+.navbarcontainer button
+{
+    position: relative;
+    left: 300px;
+}
+
+@media (max-width: 480px)
+{
+    .navbarcontainer button
+    {
+        position: relative;
+        left: 60%;
+    }
+}
+
+@media (max-width: 580px)
+{
+    .navbarcontainer button
+    {
+        position: relative;
+        left: 150%;
+    }
+}
+
+
+@media (max-width: 991)
+{
+    .navbarcontainer button
+    {
+        position: relative;
+        left: 230%;
+    }
+}
+
+
+
+    /* navbar code ends */

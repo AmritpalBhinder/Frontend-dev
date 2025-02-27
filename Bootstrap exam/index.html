@@ -1,72 +1,118 @@
-<!DOCTYPE html>
+<!<!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+
+    <!-- main css file -->
+     <link rel="stylesheet" type="text/css" href="style.css">
+
+    <!-- Bootstrap CSS file -->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+
+    <!-- Bootstrap Bundle js file -->
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+
+    <!-- Bootstrap icon file -->
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+
+
 </head>
 <body>
-        <!-- Navbar -->
-        <nav class="navbar navbar-expand-lg navbar-light col-12 " style="position: sticky; background-color: #17283A;" >
-            <div class="container">
-                <a href="" style="color: white; text-decoration: none; font-size: x-large;">NOVA</a>
-                <ul class="navbar-nav me-20px mb-2 mb-lg-0 ">
-                    <li class="nav-item">
-                        <a class="nav-link active" style="color: white;" href="">Home</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" style="color: white;" href="">About</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" style="color: white;"  href="">Services</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" style="color: white;"  href="">Portfolio</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" style="color: white;"  href="">Team</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link dropdown" style="color: white;"  href="">Dropdown
-                            <i class="bi bi-chevron-down"></i>
+
+
+    <!-- background images -->
+
+    <div class="container-fluid p-0">
+        <div class="container">
+            <div class="backrow row p-0">
+                <div class="backcolor col-sm-mg-12 col-lg-5 p-0" style="height: 100vh;">
+                    <div class="content p-0 mt-sm-m-5" style="height: 110vh;">
+                        <h1>Focus On What Matters</h1>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Aut nisi deserunt autem eveniet similique neque provident earum, impedit, voluptates quaerat praesentium cum voluptatum?</p>
+                        <div class="buttons">
+                            <a href="">Get Started</a>
+                            <button><i class="bi bi-play-circle"></i> Watch Video</button>
+                        </div>
+                    </div>
+                </div>
+                <div class="backimg col-sm-mg-12 col-lg-7 p-0">
+                    <img src="images/1684859600372.png" style="height: 100vh;" alt="">
+                </div>
+                </div>
+               
+            </div>
+        </div> 
+
+    </div>
+
+    <!-- background images ends -->
+
+    <!-- navbar starts -->
+
+    <div class="navbar navbar-expand-lg navbar-light" style="background-color: rgba(0, 255, 255, 0); position: absolute; top: 0%; left: 150px;">
+        <div class="navbarcontainer container pt-3 pb-3">
+
+            <div class="navbar-brand" style="color: white;">Nova</div>
+
+            <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasRight">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+
+            <div class="collapse navbar-collapse" style="position: relative; left: 500px;">
+                <ul class="navbar-nav w-100 d-flex justify-content-end">
+                    <li class="nav-item ms-lg-3"><a href="" class="nav-link" style="color: white;">Home</a></li>
+                    <li class="nav-item ms-lg-3"><a href="" class="nav-link" style="color: white;">About</a></li>
+                    <li class="nav-item ms-lg-3"><a href="" class="nav-link" style="color: white;">Servies</a></li>
+                    <li class="nav-item ms-lg-3"><a href="" class="nav-link" style="color: white;">Portfolio</a></li>
+                    <li class="nav-item ms-lg-3"><a href="" class="nav-link" style="color: white;">Team</a></li>
+                    <li class="nav-item dropdown ms-lg-3">
+                        <a href="" class="nav-link dropdown-toggle" data-bs-toggle="dropdown" style="color: white;">Dropdown</a>
+
                         <ul class="dropdown-menu">
-                            <li><a class="dropdown-item" href="">Dropdown 1</a></li>
-                            <li><a class="dropdown-item" href=""> Deep Dropdown</a></li>
-                            <li><a class="dropdown-item" href="">Dropdown 2</a></li>
-                            <li><a class="dropdown-item" href="">Dropdown 3</a></li>
-                            <li><a class="dropdown-item" href="">Dropdown 4</a></li>
+                            <li><a class="dropdown-item" style="color: white;">Page 1</a></li>
+                            <li><a class="dropdown-item" style="color: white;">Page 2</a></li>
                         </ul>
-                        </a>    
+
                     </li>
-                    <li class="nav-item">
-                        <a class="nav-link" style="color: white;"  href="">Contact</a>
-                    </li>
+                    <li class="nav-item ms-lg-3"><a href="" class="nav-link" style="color: white;">Contact</a></li>
                 </ul>
             </div>
-        </nav>
+        </div>
+    </div>
 
-        <!-- Content -->
-        
-         <div class="container-fluid col-12 mb-2 mb-lg-0 " style="display: flex; width: 100%; padding-left: 0%;">
-            <div class="box1" style="background-color:#17283A; width: 50%; height: 92vh;">
-            <div class="content" style="padding-left: 80px; padding-top: 150px;">
-                <h1 style="color: white;">Focus On <br> What Matters</h1>
+    <!-- offcanvas starts -->
 
-                <p style="color: white; border-left: 2px solid  lightblue; padding-left: 30px;">Lorem ipsum dolor sit amet, consectetur <br> adipisicing elit. Atque impedit natus tenetur <br> veniam. In 
-                   perferendis reiciendis, laudantium <br> temporibus labore quibusdam optio asperiores dolor qui, <br> ducimus sed facilis vel modi odit!</p>
-                   
-                   <button style="background-color: rgb(50, 159, 205); color: white; outline-color: rgb(50, 153, 205); border-radius: 50px;">Get Started</button>
-                   <a href="" class="btn fw-bold text-light mt-3 pb-4"><i class="bi bi-play-circle-fill pe-2"></i>Watch Video</a>
-            
+        <div class="offcanvas offcanvas-end" tabindex="-1" id="offcanvasRight" style="position: absolute; transform: translate(-50%,-50%); top: 50%; left: 50%; height: 400px;">
+            <div class="offcanvas-header">
+                <h5 id="offcanvasRightLabel">Nova</h5>
+                <button type="button" class="btn-close" data-bs-dismiss="offcanvas"></button>
             </div>
-            </div>
-            <img src="images/1684859600372.png" alt="" style="width: 50%; height: 92vh; padding-right: 0%;">
-         </div>
-    
-    
+        <div class="offcanvas-body">
+            <ul class="navbar-nav w-100 d-flex justify-content-end">
+                <li class="nav-item"><a href="" class="nav-link">Home</a></li>
+                <li class="nav-item"><a href="" class="nav-link">About</a></li>
+                <li class="nav-item"><a href="" class="nav-link">Servies</a></li>
+                <li class="nav-item"><a href="" class="nav-link">Portfolio</a></li>
+                <li class="nav-item"><a href="" class="nav-link">Blog</a></li>
+                <li class="nav-item dropdown">
+                    <a href="" class="nav-link dropdown-toggle" data-bs-toggle="dropdown">Dropdown</a>
 
+                    <ul class="dropdown-menu">
+                        <li><a class="dropdown-item" style="color: black;">Page 1</a></li>
+                        <li><a class="dropdown-item" style="color: black;">Page 2</a></li>
+                    </ul>
+
+                </li>
+                <li class="nav-item"><a href="" class="nav-link">Contact</a></li>
+            </ul>
+        </div>
+    </div>
+
+    <!-- offcanvas ends -->
+
+    <!-- navbar ends -->
+    
 </body>
 </html>
