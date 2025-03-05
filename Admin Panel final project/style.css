@@ -1,0 +1,266 @@
+*
+{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+
+}
+.Dashboard
+{
+    height: 100vh;
+    width: 22%;
+    background:linear-gradient(rgba(0,0,0,0.7),rgba(0,0,0,0.7)) , url("images/bg.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    position:fixed;
+    top: 0px;
+    left: 0px;
+    overflow-y: scroll;
+}
+.Dashboard .prof 
+{
+    height: 120px;
+    width: 100%;
+    background-color: #214162;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+
+}
+.Dashboard .nav-link 
+{
+    padding: 15px 40px;
+    color: white;
+    
+}
+.Dashboard .collapse 
+{
+    background-color:#214162;
+}
+.sidebar
+{
+    height: 100vh;
+    width: 20%;
+    background-color: #142739;
+    background-image:url("images/bg.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+    position:fixed;
+    top: 0px;
+    left: 0px;
+    overflow-y: scroll;
+}
+.sidebar .prof 
+{
+    height: 120px;
+    width: 100%;
+    background-color: #214162;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+
+}
+.sidebar .nav-link 
+{
+    padding: 15px 40px;
+    color: white;
+    
+}
+.sidebar .collapse 
+{
+    background-color:#214162;
+}
+.main-content
+{
+    height: 100%;
+    margin-left: 20%;
+}
+.chart 
+{
+    height:auto;
+    width: 95%; 
+    margin: auto;
+    background-color: white;
+    border-radius: 10px;
+}
+.nav_c
+{
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: space-between;
+}
+.Testimonial,.date-table
+{
+    height: 450px;
+    width: 550px;
+    border-radius: 5px;
+    background-color: #214162;
+    
+}
+.bar,.updates
+{
+    height: 450px;
+    width: 550px;
+    border-radius: 5px;
+    background-color: white;
+    
+}
+.date-head
+{
+    height: 100px;
+    width: 100%;
+    background-color: #214162;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+    background-image: url("images/bg.png");
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.read-more
+{
+    font-weight: medium;   
+    display: flex;
+    justify-content: center;
+}
+.read-more a
+{
+    text-decoration:  none; 
+    color: white;
+     justify-content:center;
+    display: flex;
+    align-items: center;
+    height: 40px;
+    width: 150px;
+    border-radius: 5px;
+    background-color:#1ed085;
+    transition: 0.6s;
+}
+.read-more a:hover 
+{
+    background-color: darkorange;
+}
+.footer
+{
+    background-color: white;
+    height: auto;
+    width: 90%;
+    border-radius: 5px;
+    margin: auto;
+}
+.name::after
+{
+    content: ('online');
+}
+
+
+
+@media (min-width:320px) and (max-width:1199px)
+{
+    .user_
+    {
+        display: none;
+    }
+}
+
+
+@media (min-width:320px) {
+    .Dashboard
+    {
+        visibility: hidden;
+    }
+    .offcanvas
+    {
+         width: 80%;
+    }
+    .sidebar
+    {
+        width: 80%;
+    }
+    .main-content
+    {
+        margin-left: 0%;
+    }
+    .logo
+    {
+        position: absolute;
+        left: 5%;
+    }
+}
+ 
+@media (min-width:480px) {
+    .Dashboard
+    {
+        visibility: hidden;
+    }
+    .offcanvas
+    {
+         width: 50%;
+    }
+    .sidebar
+    {
+        width: 50%;
+    }
+    .main-content
+    {
+        margin-left: 0%;
+    }
+}
+
+@media (min-width:567px) {
+    .Dashboard
+    {
+        visibility: hidden;
+    }
+    .offcanvas
+    {
+         width: 35%;
+    }
+    .sidebar
+    {
+        width: 35%;
+    }
+    .main-content
+    {
+        margin-left: 0%;
+    }
+}
+ 
+@media (min-width:768) {
+    .Dashboard 
+    {
+        visibility: hidden;
+    }
+    .offcanvas
+    {
+        width: 26%;
+    }
+    .main-content
+    {
+        margin-left: 26%;
+    }
+}
+
+ 
+@media (min-width:992px) {
+   .Dashboard
+   {
+        width: 20%;
+        visibility:visible;
+   }
+   .main-content
+   {
+    margin-left: 20%;
+   }
+   .main-content .toggle 
+   {
+    display: none;
+   }
+   .logo
+   {
+       position: absolute;
+       left: 0%;
+   }
+}
