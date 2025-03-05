@@ -20,3 +20,5 @@
 <img src="Corporate html wireframe/images/banner.png">
 <h1>Domino's Pizza Wireframe</h1>
 <img src ="Screenshot (31).png">
+<h1>Admin Panel</h1>
+< img src ="Admin Panel final project/images/Screenshot (35).png">
