@@ -1,0 +1,1 @@
+All JavaScript mathematical questions 
