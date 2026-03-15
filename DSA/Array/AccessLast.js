@@ -1,0 +1,5 @@
+// Wap to access the last element of an array.
+
+let arr = [1,2,3,4,5]
+
+console.log(arr[arr.length - 1])
