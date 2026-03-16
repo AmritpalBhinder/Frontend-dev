@@ -1,10 +1,10 @@
 // Wap to find largest number in an array.
 
 const arr = [15,20,8,55,60,10]
-let max = 0;
+let max = arr[0];
 
 for(let i=1;i<arr.length;i++ ){
-    if(max>arr[i]){
+    if(max<arr[i]){
         max = arr[i];
     }
 }
